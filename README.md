@@ -73,8 +73,7 @@ pnpm --filter mfe-analyzer dev   # :3002
 pnpm --filter mfe-reports dev    # :3003
 ```
 
-Aplikacja dostępna pod `http://localhost:3000`.  
-Domyślne dane logowania: `admin@auditflow.io` / `admin123`
+Aplikacja dostępna pod `http://localhost:3000`.
 
 ## Dokumentacja
 
