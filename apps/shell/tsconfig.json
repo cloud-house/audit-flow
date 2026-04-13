@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "noEmit": true,
+    "paths": {
+      "@auditflow/types": ["../../packages/types/src"],
+      "@auditflow/event-bus": ["../../packages/event-bus/src"],
+      "mfeInventory/*": ["./src/declarations/mfeInventory.d.ts"],
+      "mfeAnalyzer/*": ["./src/declarations/mfeAnalyzer.d.ts"],
+      "mfeReports/*": ["./src/declarations/mfeReports.d.ts"]
+    }
+  },
+  "include": [
+    "src",
+    "../../packages/types/src",
+    "../../packages/event-bus/src"
+  ]
+}

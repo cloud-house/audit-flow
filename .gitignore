@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+.turbo/
+coverage/
+*.env
+!.env.example
+*.log
+.DS_Store
+.cache/
+pdf-output/
